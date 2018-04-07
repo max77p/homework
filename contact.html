@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>contact page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <!--horizontal bar covering entire body-->
+    <div class="topBar">
+
+        <!--container to keep name and buttons within 960px-->
+        <div class="containerInsideBar">
+            <div class="nameBar">
+                <h1 id="myName">Shan</h1>
+            </div>
+            <div class="sectionBar">
+                    <button class="aboutButton btn hvr-underline-from-center"><a href="index.html">About</a></button>
+                <button class="portfolioButton btn hvr-underline-from-center"><a href="portfolio.html">Portfolio</a></button>
+                <button class="contactButton btn hvr-underline-from-center"><a href="contact.html">Contact</a></button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--main container containing about me section-->
+    <div class="formWrapper">
+        <h1 id="aboutMe">Contact</h1>
+        <hr class="hrStyle">
+
+        <!--form input-->
+        <form class="formstyle">
+            <label for="name" class="nameText">Name</label>
+            <input type="text" name="firstname, lastname" class="inputHeight inputboxStyle" placeholder="John Smith">
+            <label for="email" class="nameText">Email</label>
+            <input type="text" name="email address" class="inputHeight inputboxStyle" placeholder="example@gmail.com">
+            <label for="msg" class="nameText">Message</label>
+            <textarea id="messageText" name="message"></textarea>
+
+            <button class="submitButton hvr-grow-shadow">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+            <div class="tealBar">
+            </div>
+            <p class="footerText">Copyright &copy;</p>
+        </footer>
+
+</body>
+
+</html>
